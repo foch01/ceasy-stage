@@ -5,10 +5,12 @@
 
 .menu {
     float: left;
-    padding-left: 800px;
+    padding-left: 500px;
 }
 
-.link-navbar:hover, .link-navbar:focus, .link-navbar:active {
+.link-navbar:hover,
+.link-navbar:focus,
+.link-navbar:active {
     color: black;
 }
 
@@ -26,7 +28,7 @@
     text-decoration: none;
     font-family: 'Lato', sans-serif;
     font-size: 16px;
-    padding-left:20px;
+    padding-left: 20px;
 }
 
 ul {
@@ -51,17 +53,17 @@ ul {
     background-color: #fffefd;
 }
 
-
 .img-bg {
     background-image: url(img/bg.jpg);
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
+    background-position: center;
     width: 100%;
     height: 1000px;
 }
 
 .social-bg {
-    background-color: rgba(244, 244, 244,0.5);
+    background-color: rgba(244, 244, 244, 0.5);
     height: 400px;
     width: 100%;
     margin-top: 530px;
@@ -72,21 +74,25 @@ ul {
     justify-content: center;
     align-content: center;
 }
+
 .social-1 {
     background-image: url(img/twitter.png);
     width: 111px;
     height: 111px;
 }
-.social-2{
+
+.social-2 {
     background-image: url(img/behance.png);
     width: 111px;
     height: 111px;
 }
+
 .social-3 {
     background-image: url(img/linkedin.png);
     width: 111px;
     height: 111px;
 }
+
 .social-4 {
     background-image: url(img/flickr.png);
     width: 111px;
@@ -102,5 +108,32 @@ ul {
 }
 
 .portfolio {
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.img-1 {
+    background-image: url(img/portfolio-1.jpg);
+    width: 313px;
+    height: 313px;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-2 {
+    background-image: url(img/portfolio-2.jpg);
+    width: 313px;
+    height: 313px;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-3 {
+    background-image: url(img/portfolio-3.jpg);
+    width: 313px;
+    height: 313px;
+    background-size: cover;
+    background-position: center;
 }
