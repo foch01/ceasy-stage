@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.menu {
+    float: left;
+    padding-left: 800px;
+}
+
+.link-navbar:hover, .link-navbar:focus, .link-navbar:active {
+    color: black;
+}
+
+.active {
+    color: black !important;
+}
+
+.item {
+    display: inline-block;
+}
+
+.link-navbar {
+    text-transform: uppercase;
+    color: #6c7680;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    padding-left:20px;
+}
+
+ul {
+    margin: 0;
+}
+
+.logo {
+    background-image: url(img/logo.png);
+    background-size: cover;
+    background-position: center;
+    width: 98px;
+    height: 30px;
+    float: left;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 20px 0;
+    background-color: #fffefd;
+}
