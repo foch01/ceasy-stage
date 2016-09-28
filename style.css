@@ -77,26 +77,34 @@ ul {
 
 .social-1 {
     background-image: url(img/twitter.png);
-    width: 111px;
-    height: 111px;
+    width: 80px;
+    height: 80px;
+        background-size: cover;
+    background-position: center;
 }
 
 .social-2 {
     background-image: url(img/behance.png);
-    width: 111px;
-    height: 111px;
+    width: 80px;
+    height: 80px;
+        background-size: cover;
+    background-position: center;
 }
 
 .social-3 {
     background-image: url(img/linkedin.png);
-    width: 111px;
-    height: 111px;
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+    background-position: center;
 }
 
 .social-4 {
     background-image: url(img/flickr.png);
-    width: 111px;
-    height: 111px;
+    width: 80px;
+    height: 80px;
+        background-size: cover;
+    background-position: center;
 }
 
 .padd-social {
@@ -136,4 +144,70 @@ ul {
     height: 313px;
     background-size: cover;
     background-position: center;
+}
+
+.bounce:hover {
+-webkit-transform:scale(1.2);
+transform:scale(1.2);
+}
+.bounce {
+-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
+}
+
+
+.zoom {
+    transition: all 1s;
+	-moz-transition: all 1s;
+	-webkit-transition: all 1s;
+	-o-transition: all 1s;
+    overflow: hidden;
+}
+
+.zoom:hover > .img{
+    transition: all 2s;
+	transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+}
+
+
+@-webkit-keyframes slideInUp {
+  from {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slideInUp {
+  from {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slideInUp {
+  -webkit-animation-name: slideInUp;
+  animation-name: slideInUp;
+}
+
+.animated {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
 }
