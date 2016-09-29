@@ -3,6 +3,8 @@
     margin: 0;
 }
 
+/* -----  NAVBAR ------*/
+
 .menu {
     float: left;
     padding-left: 500px;
@@ -31,39 +33,40 @@
     padding-left: 20px;
 }
 
-.center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 ul {
     margin: 0;
 }
-
 .logo {
     background-image: url(img/logo.png);
     width: 98px;
     height: 30px;
     float: left;
 }
-
 .navbar {
     padding: 20px 0 20px 0;
     background-color: #fffefd;
 }
-
 .img-responsive {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-
 .img-bg {
     background-image: url(img/bg.jpg);
     width: 100%;
     height: 1000px;
 }
+
+
+/*CENTER ELEMENT*/
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
 
 
 
@@ -74,28 +77,25 @@ ul {
     margin-top: 530px;
 }
 
-.social-1 {
-    background-image: url(img/twitter.png);
+.size-social {
     width: 80px;
     height: 80px;
+}
+
+.social-1 {
+    background-image: url(img/twitter.png);
 }
 
 .social-2 {
     background-image: url(img/behance.png);
-    width: 80px;
-    height: 80px;
 }
 
 .social-3 {
     background-image: url(img/linkedin.png);
-    width: 80px;
-    height: 80px;
 }
 
 .social-4 {
     background-image: url(img/flickr.png);
-    width: 80px;
-    height: 80px;
 }
 
 .padd-social {
@@ -110,22 +110,21 @@ ul {
     padding-top: 70px;
 }
 
-.img-1 {
-    background-image: url(img/portfolio-1.jpg);
+.size-img {
     width: 313px;
     height: 313px;
+}
+
+.img-1 {
+    background-image: url(img/portfolio-1.jpg);
 }
 
 .img-2 {
     background-image: url(img/portfolio-2.jpg);
-    width: 313px;
-    height: 313px;
 }
 
 .img-3 {
     background-image: url(img/portfolio-3.jpg);
-    width: 313px;
-    height: 313px;
 }
 
 .bounce:hover {
