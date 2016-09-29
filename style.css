@@ -3,6 +3,7 @@
     margin: 0;
 }
 
+
 /* -----  NAVBAR ------*/
 
 .menu {
@@ -36,21 +37,28 @@
 ul {
     margin: 0;
 }
+
+.navbar {
+    padding: 20px 0 20px 0;
+    background-color: #fffefd;
+}
+
 .logo {
     background-image: url(img/logo.png);
     width: 98px;
     height: 30px;
     float: left;
 }
-.navbar {
-    padding: 20px 0 20px 0;
-    background-color: #fffefd;
-}
+
+
+/*------ RESPONSIVE IMG --------*/
+
 .img-responsive {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
+
 .img-bg {
     background-image: url(img/bg.jpg);
     width: 100%;
@@ -58,17 +66,13 @@ ul {
 }
 
 
-/*CENTER ELEMENT*/
+/* ------- CENTER ELEMENT ---------*/
+
 .center {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-
-
-
-
 
 .social-bg {
     background-color: rgba(244, 244, 244, 0.5);
@@ -81,6 +85,9 @@ ul {
     width: 80px;
     height: 80px;
 }
+
+
+/*--------- IMPORT IMG SOCIAL ----------*/
 
 .social-1 {
     background-image: url(img/twitter.png);
@@ -114,6 +121,9 @@ ul {
     width: 313px;
     height: 313px;
 }
+
+
+/*------------ IMPORT IMG PORTFOLIO ------------*/
 
 .img-1 {
     background-image: url(img/portfolio-1.jpg);
@@ -149,6 +159,9 @@ ul {
     -o-transform: scale(1.1);
     -moz-transform: scale(1.1);
 }
+
+
+/*------ STYLE CSS OTHER PAGE --------*/
 
 .work {
     text-transform: uppercase;
